@@ -1,0 +1,117 @@
+# Autonomous Vehicle Configuration
+# This file contains all configurable parameters for the vehicle system
+
+# Vehicle Settings
+vehicle:
+  name: "Autonomous Vehicle"
+  max_speed: 50  # km/h
+  min_distance_threshold: 0.3  # meters
+  emergency_stop_distance: 0.2  # meters
+
+# Vision Settings
+vision:
+  # Lane Detection
+  lane_detection:
+    enabled: true
+    interval: 5  # Process every 5th frame
+    confidence_threshold: 0.5
+    
+  # Object Detection (YOLO)
+  object_detection:
+    enabled: true
+    model: "yolov8n.pt"
+    confidence_threshold: 0.5
+    
+  # Traffic Light Detection
+  traffic_light:
+    enabled: true
+    red_threshold: 300  # pixels
+    green_threshold: 300  # pixels
+    yellow_threshold: 300  # pixels
+
+# Sensor Settings
+sensors:
+  # Ultrasonic Sensor
+  ultrasonic:
+    enabled: true
+    timeout: 1.0  # seconds
+    max_distance: 400  # cm
+    
+  # Camera
+  camera:
+    enabled: true
+    resolution: [640, 480]
+    fps: 30
+
+# Motor Control
+motors:
+  # Speed profiles
+  speeds:
+    forward: 30  # km/h
+    backward: 20  # km/h
+    turn: 20  # km/h
+    slow: 10  # km/h
+    
+  # Motor pins (from GPIO config)
+  left_forward: 16
+  left_backward: 12
+  right_forward: 21
+  right_backward: 20
+
+# Safety Settings
+safety:
+  # Emergency Detection
+  emergency:
+    acceleration_threshold: 8.0  # m/s²
+    impact_threshold: 15.0  # m/s²
+    rollover_threshold: 6.0  # rad/s
+    cooldown_period: 300  # seconds
+    
+  # Automatic Parking
+  parking:
+    enabled: true
+    min_space: 1.5  # meters
+    max_attempts: 3
+
+# Logging Settings
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "logs/vehicle.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Emergency Services
+emergency:
+  enabled: true
+  email:
+    enabled: true
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    # Credentials from .env file
+  phone:
+    enabled: false
+    # Phone service configuration
+
+# Performance Settings
+performance:
+  # Multi-threading
+  threading:
+    enabled: true
+    max_workers: 4
+    
+  # GPU Acceleration
+  gpu:
+    enabled: false  # Set to true if GPU available
+    device: 0  # GPU device ID
+    
+  # Frame skipping
+  frame_skip: 5  # Process every Nth frame
+
+# Development Settings
+development:
+  debug_mode: false
+  save_frames: false
+  frame_output_dir: "debug_frames"
+  verbose_logging: false
+

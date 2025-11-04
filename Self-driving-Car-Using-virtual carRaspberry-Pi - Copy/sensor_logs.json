@@ -1,0 +1,254 @@
+[
+  {
+    "timestamp": "00:16:02",
+    "sensor": "CAMERA",
+    "message": "Camera lens covered - remove obstruction",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:03",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:04",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:06",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:07",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:14",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:15",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:16",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:17",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:18",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:19",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:20",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:21",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:22",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:27",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:32",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:33",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:34",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:38",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:39",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:40",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:41",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:42",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:43",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:44",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:45",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:46",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:47",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:48",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:49",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:50",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:51",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:52",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:53",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:54",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  },
+  {
+    "timestamp": "00:16:56",
+    "sensor": "CAMERA",
+    "message": "Camera image blurred - clean lens",
+    "level": "WARNING",
+    "acknowledged": false
+  }
+]

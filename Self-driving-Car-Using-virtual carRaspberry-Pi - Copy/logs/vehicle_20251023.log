@@ -1,0 +1,51 @@
+2025-10-23 22:35:32 - __main__ - INFO - Initializing Fast YOLO Navigation System...
+2025-10-23 22:50:20 - __main__ - INFO - ============================================================
+2025-10-23 22:50:20 - __main__ - INFO - Using Gmail: your_email@gmail.com
+2025-10-23 22:50:20 - __main__ - INFO - Emergency contact: emergency_contact@gmail.com
+2025-10-23 22:50:20 - __main__ - INFO -    Sending in 5 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:21 - __main__ - INFO -    Sending in 4 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:22 - __main__ - INFO -    Sending in 3 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:23 - __main__ - INFO -    Sending in 2 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:24 - __main__ - INFO -    Sending in 1 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:25 - __main__ - INFO -    • Stopping motors immediately
+2025-10-23 22:50:25 - __main__ - INFO -    • Activating hazard lights
+2025-10-23 22:50:25 - __main__ - INFO -    • Unlocking doors for emergency access
+2025-10-23 22:50:26 - __main__ - ERROR -    Please check your:
+2025-10-23 22:50:26 - __main__ - ERROR -    - Email address and password in .env file
+2025-10-23 22:50:26 - __main__ - ERROR -    - Gmail 'App Passwords' configuration
+2025-10-23 22:50:26 - __main__ - ERROR -    - 2-Factor Authentication enabled
+2025-10-23 22:50:26 - __main__ - ERROR -    Error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-475caf2eb9csm57174635e9.14 - gsmtp')
+2025-10-23 22:50:26 - __main__ - INFO -    To: +1234567890
+2025-10-23 22:50:26 - __main__ - INFO -    Message: 'ACCIDENT at Tunis, Tunisia - Test Location'
+2025-10-23 22:50:26 - __main__ - INFO -    Google Maps: https://maps.google.com/?q=36.8065,10.1815
+2025-10-23 22:50:26 - __main__ - INFO -    • Isolating high-voltage systems
+2025-10-23 22:50:26 - __main__ - INFO -    • Activating emergency lighting
+2025-10-23 22:50:26 - __main__ - INFO -    • Displaying emergency contact information
+2025-10-23 22:50:26 - __main__ - INFO - 
+============================================================
+2025-10-23 22:50:56 - __main__ - INFO - ============================================================
+2025-10-23 22:50:56 - __main__ - INFO - Using Gmail: your_email@gmail.com
+2025-10-23 22:50:56 - __main__ - INFO - Emergency contact: emergency_contact@gmail.com
+2025-10-23 22:50:56 - __main__ - INFO -    Sending in 5 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:57 - __main__ - INFO -    Sending in 4 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:58 - __main__ - INFO -    Sending in 3 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:50:59 - __main__ - INFO -    Sending in 2 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:51:00 - __main__ - INFO -    Sending in 1 seconds... (Press Ctrl+C to cancel)
+2025-10-23 22:51:01 - __main__ - INFO -    • Stopping motors immediately
+2025-10-23 22:51:01 - __main__ - INFO -    • Activating hazard lights
+2025-10-23 22:51:02 - __main__ - INFO -    • Unlocking doors for emergency access
+2025-10-23 22:51:02 - __main__ - ERROR -    Please check your:
+2025-10-23 22:51:02 - __main__ - ERROR -    - Email address and password in .env file
+2025-10-23 22:51:02 - __main__ - ERROR -    - Gmail 'App Passwords' configuration
+2025-10-23 22:51:02 - __main__ - ERROR -    - 2-Factor Authentication enabled
+2025-10-23 22:51:02 - __main__ - ERROR -    Error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-429898ccd70sm7524442f8f.35 - gsmtp')
+2025-10-23 22:51:02 - __main__ - INFO -    To: +1234567890
+2025-10-23 22:51:02 - __main__ - INFO -    Message: 'ACCIDENT at Tunis, Tunisia - Test Location'
+2025-10-23 22:51:02 - __main__ - INFO -    Google Maps: https://maps.google.com/?q=36.8065,10.1815
+2025-10-23 22:51:02 - __main__ - INFO -    • Isolating high-voltage systems
+2025-10-23 22:51:02 - __main__ - INFO -    • Activating emergency lighting
+2025-10-23 22:51:02 - __main__ - INFO -    • Displaying emergency contact information
+2025-10-23 22:51:03 - __main__ - INFO - 
+============================================================
+2025-10-23 22:59:26 - __main__ - INFO - Initializing Fast YOLO Navigation System...
+2025-10-23 23:00:31 - __main__ - INFO - Initializing Fast YOLO Navigation System...
