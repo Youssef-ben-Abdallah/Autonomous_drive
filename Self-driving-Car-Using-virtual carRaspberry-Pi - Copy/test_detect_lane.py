@@ -5,10 +5,14 @@ Verifies that the module can be imported and initialized
 """
 
 import sys
-import os
+from pathlib import Path
 
-# Add current directory to path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = Path(__file__).resolve().parent
+SRC_DIR = PROJECT_ROOT / "src"
+
+sys.path.insert(0, str(PROJECT_ROOT))
+if SRC_DIR.exists():
+    sys.path.insert(0, str(SRC_DIR))
 
 def test_imports():
     """Test that all required modules can be imported"""
@@ -28,10 +32,10 @@ def test_imports():
         return False
     
     try:
-        from utils.logger import get_logger
-        print("✅ utils.logger imported successfully")
+        from autonomous_drive.utils.logger import get_logger
+        print("✅ autonomous_drive.utils.logger imported successfully")
     except ImportError as e:
-        print(f"❌ Failed to import utils.logger: {e}")
+        print(f"❌ Failed to import autonomous_drive.utils.logger: {e}")
         return False
     
     return True
@@ -40,7 +44,7 @@ def test_logger():
     """Test that logger works"""
     print("\n🧪 Testing logger...")
     try:
-        from utils.logger import get_logger
+        from autonomous_drive.utils.logger import get_logger
         logger = get_logger(__name__)
         logger.info("✅ Logger initialized successfully")
         return True
@@ -52,8 +56,8 @@ def test_detect_lane_import():
     """Test that detect_lane module can be imported"""
     print("\n🧪 Testing detect_lane import...")
     try:
-        from detect_lane import FastYOLONavigation
-        print("✅ detect_lane module imported successfully")
+        from autonomous_drive.perception.lane_navigation import LaneNavigationSystem
+        print("✅ LaneNavigationSystem imported successfully")
         return True
     except Exception as e:
         print(f"❌ Failed to import detect_lane: {e}")
