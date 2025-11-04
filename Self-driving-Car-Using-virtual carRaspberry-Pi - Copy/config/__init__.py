@@ -1,9 +1,5 @@
-"""
-Configuration package for autonomous vehicle system
-"""
+"""Legacy configuration namespace forwarding to ``autonomous_drive.config``."""
 
-from .gpio_config import GPIOConfig, gpio_config
-from .config_loader import ConfigLoader, config
+from autonomous_drive.config import ConfigLoader, GPIOConfig, config, gpio_config
 
-__all__ = ['GPIOConfig', 'gpio_config', 'ConfigLoader', 'config']
-
+__all__ = ["ConfigLoader", "GPIOConfig", "config", "gpio_config"]

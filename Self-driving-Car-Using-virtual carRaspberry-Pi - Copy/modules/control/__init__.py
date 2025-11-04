@@ -1,8 +1,6 @@
-"""
-Control module for motor and steering control
-"""
+"""Legacy control package kept for backwards compatibility."""
 
-from .motor_controller import MotorController
+from autonomous_drive.control.motor_controller import MotorController
 
-__all__ = ['MotorController']
+__all__ = ["MotorController"]
 

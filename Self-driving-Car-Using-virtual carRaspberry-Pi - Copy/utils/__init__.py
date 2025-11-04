@@ -1,9 +1,5 @@
-"""
-Utilities package for autonomous vehicle system
-"""
+"""Legacy utilities namespace forwarding to ``autonomous_drive.utils``."""
 
-from .logger import VehicleLogger, get_logger
-from .validators import Validator, ValidationError
+from autonomous_drive.utils import VehicleLogger, ValidationError, Validator, get_logger
 
-__all__ = ['VehicleLogger', 'get_logger', 'Validator', 'ValidationError']
-
+__all__ = ["VehicleLogger", "ValidationError", "Validator", "get_logger"]
